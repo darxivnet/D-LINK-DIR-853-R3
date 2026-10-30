@@ -4,10 +4,10 @@ Depends: libc, netifd, jsonfilter, usign, openwrt-keyring, ubi-utils, fstools, f
 License: GPL-2.0
 Section: base
 Architecture: mipsel_24kc
-Installed-Size: 58272
+Installed-Size: 58282
 Filename: base-files_1564-r24232-539228933c_mipsel_24kc.ipk
-Size: 59296
-SHA256sum: 324811581f62aea4d75e3d1b48a26591f64d6fd640130cda0046d28c8fd2d1af
+Size: 59301
+SHA256sum: f6d6a25a73daf4e340ef67105d23f59ca637f6590480842899e52060c6c992e6
 Description:  This package contains a base filesystem and system scripts for OpenWrt.
 
 Package: dropbear
@@ -47,6 +47,17 @@ Filename: fwtool_2019-11-12-8f7fe925-1_mipsel_24kc.ipk
 Size: 4325
 SHA256sum: 6525e3378c7cc623f62eb1c891caa6c948bc3a581e9c498f381d35d310ad393c
 Description:  Utility for appending and extracting firmware metadata and signatures
+
+Package: kmod-amneziawg
+Version: 5.15.189+0.0.1-1
+Depends: kernel (=5.15.189-1-ce2e7009d6c9c00750b6048adae24ccb), kmod-udptunnel4, kmod-udptunnel6, kmod-crypto-lib-chacha20poly1305, kmod-crypto-lib-curve25519
+Section: kernel
+Architecture: mipsel_24kc
+Installed-Size: 39659
+Filename: kmod-amneziawg_5.15.189+0.0.1-1_mipsel_24kc.ipk
+Size: 40362
+SHA256sum: 2ac5e9f78bec55144e8489b1ec515764398a61b48ddc2b94576046d5126dffc9
+Description:  AmneziaWG Kernel Module
 
 Package: kmod-ath9k-common
 Version: 5.15.189+6.1.145-1-1

@@ -1,3 +1,4 @@
+amneziawg-tools - 1.0.20240213-1
 ath9k-htc-firmware - 20230804-1
 base-files - 1564-r24232-539228933c
 busybox - 1.36.1-1
@@ -17,6 +18,7 @@ jansson4 - 2.14-3
 jshn - 2023-05-23-75a3b870-1
 jsonfilter - 2025-04-18-8a86fb78-1
 kernel - 5.15.189-1-ce2e7009d6c9c00750b6048adae24ccb
+kmod-amneziawg - 5.15.189+0.0.1-1
 kmod-ath - 5.15.189+6.1.145-1-1
 kmod-ath9k-common - 5.15.189+6.1.145-1-1
 kmod-ath9k-htc - 5.15.189+6.1.145-1-1
@@ -145,6 +147,7 @@ luci-mod-admin-full - git-25.222.75657-7ce34fe
 luci-mod-network - git-25.222.75657-7ce34fe
 luci-mod-status - git-25.222.75657-7ce34fe
 luci-mod-system - git-25.222.75657-7ce34fe
+luci-proto-amneziawg - 0.0.1-1
 luci-proto-ipv6 - git-25.222.75657-7ce34fe
 luci-proto-ppp - git-25.222.75657-7ce34fe
 luci-theme-bootstrap - git-25.222.75657-7ce34fe

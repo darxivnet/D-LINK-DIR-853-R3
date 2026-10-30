@@ -144,6 +144,7 @@ luci-lib-nixio - git-25.222.75657-7ce34fe
 luci-light - git-25.222.75657-7ce34fe
 luci-lua-runtime - git-25.222.75657-7ce34fe
 luci-mod-admin-full - git-25.222.75657-7ce34fe
+luci-mod-dashboard - git-25.222.75657-7ce34fe
 luci-mod-network - git-25.222.75657-7ce34fe
 luci-mod-status - git-25.222.75657-7ce34fe
 luci-mod-system - git-25.222.75657-7ce34fe
